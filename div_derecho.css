@@ -1,0 +1,61 @@
+#derecha_twitter{
+	background-color: skyblue ;
+	box-shadow: 0 0 10px skyblue, 0 0 40px skyblue, 0 0 80px skyblue;
+	transition: background-color 0.6s, box-shadow 0.6s;
+}
+
+.twitt{
+	width: 100%;
+	height: 100px;
+	border-bottom: solid 2px black;
+}
+
+.derecha_sub{
+	display: flex;
+	flex-direction: row;
+	padding: 0.9em;
+}
+
+.derecha_subtitulo--twitter:hover{
+	color: white;
+}
+
+#derecha_twitter:hover{
+	background-color: #428add;
+	box-shadow: 0 0 10px #428add, 0 0 40px #428add, 0 0 80px #428add;
+}
+
+.derecha_sub i{
+	margin-right: 0.3em;
+}
+
+.contenedor_twitter{
+	height: 200px;
+	width: 90%;
+	box-sizing: border-box;
+	background-color: white;
+	margin: 1em auto;
+	overflow-y: hidden;
+	border: 2px solid darkblue;
+}
+
+.contenedor_twitter:hover{
+	overflow-y: auto;
+}
+
+#derecha_facebook{
+	margin-top: 4em;
+	background-color: #1771e6 ; /*#3c538c hover*/
+	box-shadow: 0 0 10px #1771e6, 0 0 40px #1771e6, 0 0 80px #1771e6;
+	transition: background-color 0.6s, box-shadow 0.6s;
+}
+
+.derecha_subtitulo--facebook:hover{
+	color: white;
+}
+
+#derecha_facebook:hover{
+	background-color: #3c538c;
+	box-shadow: 0 0 10px #3c538c, 0 0 40px #3c538c, 0 0 80px #3c538c;
+}
+

@@ -1,0 +1,40 @@
+/*Modelo caja central*/
+.caja_regular{
+	flex-shrink: 0.5;
+	 /*Modificable*/
+	width: 60vw;
+	position: relative;
+}
+
+.caja_texto_presentacion{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.floro{
+	font-size: 20px;
+	padding: 1.6vw;
+}
+
+#imagen_central{
+	object-position: top center;
+}
+
+.numeracion{/*En proceso*/
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: 0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+	cursor: default;
+	margin-top: 5vw ;
+	margin-left: 1vw;
+	font-size: 2vw;
+}

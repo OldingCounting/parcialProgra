@@ -1,0 +1,96 @@
+header{
+	position: fixed;
+	top: 0;
+	background-color: gray;
+	height: 4em;
+	width: 100%;
+	z-index: 800;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: -3px 5px 5px black;
+}
+
+#modo_oscuro{
+	position: absolute;
+	height: 100%;
+	width: 8vw;
+	z-index: 500;
+	opacity: 0;
+}
+
+header p {
+	width: 2em;
+	align-self: center;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	transition: all 0.6s;
+}
+
+nav a{
+	padding: 1.6em;
+	height: 100%;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: darkgray;
+}
+
+.creador{
+	height: 100%;
+	align-self: center;
+	padding: 1.5em;
+	z-index: 400;
+}
+
+#modo_oscuro:hover ~ .creador{
+	background-color: darkgray;
+}
+
+.caja_boton--mobile{
+	background-color: gray;
+	display: none;
+	z-index: 100;
+}
+
+/* Elementos para el menu hamburguesa */
+.boton_hamburguer{
+	cursor: pointer;
+	position: absolute;
+	height: 100%;
+	width: 3em;
+	right: 0;
+	opacity: 0;
+	z-index: 1800;
+}
+
+
+#icono_hamburguesa, #icono_cerrar{
+	position: absolute;
+	padding-right: 0.4m;
+	width: 1em;
+	right: 0;
+	font-size: 3em;
+	height: 100%;
+	display: none;
+	text-align: center;
+}
+
+#icono_hamburguesa:hover{
+	background-color: indianred;
+}
+
+#icono_cerrar{
+	display: none;
+	z-index: 1000;
+
+}
+
+#icono_hamburguesa{
+	display: none;
+	z-index: 900;
+
+}

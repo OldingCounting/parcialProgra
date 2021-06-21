@@ -1,0 +1,229 @@
+*{
+	font-size: calc(0.3em + 0.83vw);
+}
+
+body{
+	transition: background 0.6s;
+}
+
+/*Presentacion principal*/
+.caja_titulo_principal{
+	background-image: url("https://i.pinimg.com/736x/1c/a5/af/1ca5af62c669dd65c8580593343d57e6.jpg");
+	background-repeat: repeat;
+	height: 24em;
+	margin-top: 4em;
+	position: relative;
+}
+
+.titulo{
+	position: absolute;
+	bottom: 0;
+	right: 1vw;
+	margin-bottom: 1vw;
+	font-size: 4.5vw;
+	text-align: center;
+	color: white;
+}
+
+
+/*Contenedor Principal*/
+.contenedor_principal{
+	display: flex;
+	justify-content: space-between;
+	margin: 3vw 0;
+}
+
+/*Modelo cajas de los costados*/
+.caja_sticky{
+	align-self: flex-start;
+	position: sticky;
+	height: 90%;
+	top: 5em;  /*Cambia este valor con respecto a la altura del header*/
+	width: 17%;
+	display: flex;
+	flex-direction: column;
+	z-index: 700;
+}
+
+
+
+/*Caja elemento*/
+.neon_blue{
+	position: relative;
+	margin: 2.8vw 3.6vw;
+	text-align: center;
+	display: flex;
+	width: 50vw;
+	height: calc(25vw + 8em); /*Seda*/
+	padding: 10px 30px;
+	overflow: hidden;
+	cursor: default;
+	transition: 0.7s;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: solid 1px #57f8f1;
+	border-radius: 9px;
+
+}
+
+/*Disenio de la caja*/
+.neon_blue:hover{
+	background-color: #495190;
+	box-shadow: 0 0 10px #495190, 0 0 40px #495190, 0 0 80px #495190;
+}
+
+
+
+/*Imagen_elemento*/
+.imagen_elemento{
+	position: relative;
+	top: 3.6vw;
+	object-position: right;
+	width: 40%;
+	object-fit: cover;
+	height: 16.6vw;
+	border-radius: 10px;
+	box-shadow: 4px 4px 5px black;
+}
+
+
+/*objeto_descripcion*/
+.objeto_descripcion{
+	position: relative;
+	font-size: calc(0.2em + 0.7vw);
+	flex-basis: 40%; /*331*/
+}
+
+/*Titulo del elemento*/
+.titulo_elemento{
+	font-size: calc(0.4em + 0.9vw);
+	margin:1.5vw auto;
+	display: block;
+	letter-spacing: 2px;
+}
+
+/*Caja muestra plataformas soportados*/
+.objeto_plataforma{
+	position: relative;
+	left: 10px;
+	font-size: calc(0.2em + 0.7vw);
+	text-align: left;
+	margin: 1vw 0;
+	line-height: 2	0px;
+}
+
+/*Footer--elemento*/
+.caja_footer--elemento{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: relative;
+	bottom: 0;
+	align-self: flex-end;
+	height: 3vw;
+	width: 100%;
+
+}
+/*Botonera*/
+.botonera{
+	padding: 0.4vw;
+	display: flex;
+}
+
+.botonera i{
+	width: 2.3vw;
+	height: 2.3vw;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.botonera a:hover{
+	color: gray;
+}
+
+/*Enlaces para comprar el juego*/
+.caja_compra{
+	padding: 0.36vw;
+	border-radius: 6px;
+	transition:all 0.5s;
+	display: flex;
+	box-shadow: 0.36vw 0.36vw 10px black;					
+}
+
+.steam_caja{
+	background-color: black;
+	color: white;
+}
+
+#steam:hover .steam_caja{
+	background-color: white;
+	color: black;
+}
+
+.nintendo_caja{
+	background-color: #f7000a;
+	color: white;
+}
+
+#nintendo:hover .nintendo_caja{
+	background-color: white;
+	color: #f7000a;
+}
+
+.sony_caja{
+	background-color: #1a4779;
+	color: white;
+}
+
+#sony:hover .sony_caja{
+	background-color: white;
+	color: black;
+}
+
+.xbox_caja{
+	background-color: #107910;
+	color: white;
+}
+
+#xbox:hover .xbox_caja{
+	background-color: white;
+	color: black;
+}
+/*Frase que va junto al icono de compra*/
+.frase{
+	display: inline-block;
+	margin-left: 0.25vw;
+	font-size: 0.6vw;
+}
+
+
+/*Colores Personalizados*/
+
+.neon_celeste:hover{
+	background-color: #e77749;
+	box-shadow: 0 0 10px #e77749, 0 0 40px #e77749, 0 0 80px #e77749;
+}
+
+.neon_limbo:hover{
+	background-color: #4c4c4c;
+	box-shadow: 0 0 10px #4c4c4c, 0 0 40px #4c4c4c, 0 0 80px #4c4c4c;
+}
+
+.neon_undertale:hover{
+	background-color: #ababdc;
+	box-shadow: 0 0 10px #ababdc, 0 0 40px #ababdc, 0 0 80px #ababdc;
+}
+
+.neon_shovel:hover{
+	background-color: #54bfff;
+	box-shadow: 0 0 10px #54bfff, 0 0 40px #54bfff, 0 0 80px #54bfff;
+}
+
+.neon_inside:hover{
+	background-color: #9e0b0f;
+	box-shadow: 0 0 10px #9e0b0f, 0 0 40px #9e0b0f, 0 0 80px #9e0b0f;
+}

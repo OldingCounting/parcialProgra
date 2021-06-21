@@ -1,0 +1,48 @@
+html {	/*Importante para trabajar con el footer*/
+  min-height: 100%;	
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 8vw !important; /* Por alguna razon, con esto el footer queda solo */
+}
+
+
+
+/* Footer */
+footer{/* Como es position absolute cuando le doy bottom 0 se sale del body y queda solo */
+	font-size: calc(0.6em + 0.5vw);
+	position: absolute;
+	background-image: none;
+	background-color: white;
+	text-align: center;
+	height: 8vw;
+	width: 100%;
+	bottom: 0;
+	transition: background 0.6s;
+}
+
+.footer_texto-1{
+	margin: 3em 0 0.3em 0;
+	color: black;
+}
+
+.footer_texto{
+	margin: 0.5em 0 0.3em 0;
+	color: black;
+}
+
+.footer_caja--elemento{
+	display: inline-block;
+	margin-left: 0.6vw;
+}
+
+.footer_elemento--enlace{
+	text-decoration: none;
+	transition: color 0.15s;
+}
+
+.footer_elemento--enlace:hover{
+	color: #a18d8d;
+}

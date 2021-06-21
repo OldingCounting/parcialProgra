@@ -1,0 +1,196 @@
+@media (max-width: 800px){
+	
+/*Todo esto es del header*/
+	*{
+		transition: all 0.6s;
+	}
+	header{
+		font-size: 11px;
+		height: 40px;
+	}
+
+	.creador{
+		font-size: 12px;
+	}
+
+	.caja_titulo_principal{
+		height: 240px;
+		margin-top: 40px;
+
+	}
+
+	.floro{
+		padding: 15px;
+	}
+
+	.caja_boton--mobile{
+		position: absolute;
+		display: block;
+		top: -1000px;
+		height: 1000px;
+		width: 100%;
+		z-index: 600;
+		transition: all 0.6s;
+	}
+
+	nav{
+		position: absolute;
+		top: -460px;
+		width: 100vw;
+		flex-direction: column;
+		z-index: 700;
+	}
+
+	.nav_elemento{
+		font-size: 20px;
+	}
+
+	#icono_hamburguesa{
+		display: block;
+	}
+
+	#icono_cerrar{
+		display: block;
+		opacity: 0;
+	}
+
+	.boton_hamburguer:hover ~ #icono_hamburguesa{
+		background-color: darkgray;
+	}
+
+	.boton_hamburguer:hover ~ #icono_cerrar{
+		background-color: darkgray;
+	}
+
+	.boton_hamburguer:checked ~ nav{
+		top: 40px;
+		display:flex;
+	}	
+
+	.boton_hamburguer:checked ~ .caja_boton--mobile{
+		top: 0;
+	}	
+
+	.boton_hamburguer:checked ~ #icono_cerrar{
+		opacity: 1;
+	}
+
+	.boton_hamburguer:checked ~ #icono_hamburguesa{
+		opacity: 0;
+	}
+
+/*---------------Fin del Header---------------------*/
+
+/*Modificaciones del contenedor principal*/
+
+.contenedor_principal{
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100%;
+}
+
+/*Modificaciones del contenedor central*/
+.caja_principal{
+	order: 1;
+	width: 100%;
+}
+
+.neon_blue{
+	height: 250px;
+	font-size: 60px;
+	margin: 40px auto 60px;
+	width: 90%;
+	padding: 10px;
+}
+
+.imagen_elemento{
+	top: 4vw;
+	height: 18vw;
+}
+
+.caja_compra i{
+	font-size: 10px !important;
+}
+
+.frase{
+	font-size: 6px !important;
+}
+
+.botonera{
+	justify-content: space-around;
+	flex-basis: 60px;
+}
+
+.botonera i{
+	font-size: 10px !important;
+}
+
+/*----------------------Fin de Modificaciones del contenedor central ---------------------*/
+
+/*Modificaciones Caja Izquierda(Collapsible's)*/
+.caja_sticky{
+	position: relative;
+	width: 100%;
+	font-size: 50px;
+	top: 0px;
+}
+
+.sub{
+	font-size: 15px;
+}
+
+.caja_izquierda{
+	order: 2;
+	margin-bottom: 60px;
+}
+
+.colap{
+}
+
+.colap a{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+/*Modificaciones caja Derecha(Redes Sociales)*/
+.caja_derecha{
+	order: 3;
+}
+
+#derecha_facebook{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.derecha_sub{
+	font-size: 20px;
+}
+
+.contenedor_twitter{
+	width: 60%;
+}
+
+
+
+
+/*Modificaciones al Footer*/
+footer{
+	height: 80px;
+	font-size: 20px;
+	position: relative;
+	top: 3vw;
+}
+
+.footer_caja--elemento{
+	font-size: 15px !important;
+}
+
+
+body{
+	margin-bottom: 0 !important;
+}
+
+
+
+}

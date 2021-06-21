@@ -1,0 +1,91 @@
+.caja_izquierda{
+	background-color: gray;
+	box-shadow: 0 0 10px gray, 0 0 40px gray, 0 0 80px gray;
+}
+
+.caja_fecha{
+	position: relative;
+}
+
+.boton_colap{
+	width: 100%;
+	height: 58.6px	;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.genero:hover ~ .sub_genero{
+	background-color: darkgray;
+}	
+
+.fecha:hover ~ .sub_fecha{
+	background-color: darkgray;
+}	
+
+.sub{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 15px;
+	cursor: pointer;
+	transition: background-color 0.4s, color 0.4s;
+}
+
+.sub::after{
+	content: "+";
+}
+
+.colap{
+	height: 35vh;
+	overflow: hidden;
+	list-style: none;
+	display: none;
+	transition: all 0.6s;
+}
+
+.colap:hover{
+	overflow: auto;
+}
+
+.colap a{
+	width: 100%;
+	padding: 20px 40px;
+	align-self: flex-end;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.colap a:hover{
+	background-color: darkgray;
+	color: white;
+}
+
+
+
+.genero:checked ~ .caja_colap--genero{
+	display: flex;
+	flex-direction: column;
+}
+
+.genero:checked ~ .sub_genero::after{
+	content: "-";
+}
+
+.genero:checked ~ .sub_genero{
+	background-color: dimgray;
+	color: white;
+}
+
+
+.fecha:checked ~ .caja_colap--fecha{
+	display: flex;
+	flex-direction: column;
+}
+
+.fecha:checked ~ .sub_fecha{
+	background-color: dimgray;
+	color: white;
+}
+
+.fecha:checked ~ .sub_fecha::after{
+	content: "-";
+}
