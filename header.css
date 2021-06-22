@@ -1,13 +1,14 @@
 header{
 	position: fixed;
 	top: 0;
-	background-color: gray;
+	background-color: #f6e200;
 	height: 4em;
 	width: 100%;
 	z-index: 800;
 	display: flex;
 	justify-content: space-between;
 	box-shadow: -3px 5px 5px black;
+	transition: background 0.5s;
 }
 
 #modo_oscuro{
@@ -24,19 +25,21 @@ header{
 	padding: 1.6em;
 	align-self: center;
 	transition: all 0.6s;
+	font-weight: 700;
 }
 
 .creador{
+	font-size: 120%;
 	height: 100%;
 	width: 9vw;
 	align-self: center;
-	padding: 1.5em;
+	padding: 1em;
 	z-index: 400;
 	cursor: pointer;
 }
 
 #modo_oscuro:hover ~ .creador{
-	background-color: darkgray;
+	background-color: #ffee2d;
 }
 
 nav{
@@ -52,15 +55,16 @@ nav a{
 	text-decoration: none;
 }
 
+
 nav a:hover{
-	background-color: darkgray;
+	background-color: #ffee2d;
 	color: white;
 }
 
 
 .caja_boton--mobile{
 	position: relative;
-	background-color: gray;
+	background-color: #f6e200;
 	display: none;
 	z-index: 100;
 }
@@ -79,7 +83,7 @@ nav a:hover{
 }
 
 .botonera_header a:hover{
-	background-color: darkgray;
+	background-color: #ffee2d;
 }
 
 .botonera_header a:hover i{
