@@ -1,6 +1,6 @@
 #derecha_twitter{
 	background-color: skyblue ;
-	box-shadow: 0 0 10px skyblue, 0 0 40px skyblue, 0 0 80px skyblue;
+	/*box-shadow: 0 0 10px skyblue, 0 0 40px skyblue, 0 0 80px skyblue;*/ /*Esto ya esta gregado en el javscript*/
 	transition: background-color 0.6s, box-shadow 0.6s;
 }
 
@@ -22,7 +22,7 @@
 
 #derecha_twitter:hover{
 	background-color: #428add;
-	box-shadow: 0 0 10px #428add, 0 0 40px #428add, 0 0 80px #428add;
+	/*box-shadow: 0 0 10px #428add, 0 0 40px #428add, 0 0 80px #428add;*/ /*Esto ya esta gregado en el javscript*/
 }
 
 .derecha_sub i{
@@ -46,7 +46,7 @@
 #derecha_facebook{
 	margin-top: 4em;
 	background-color: #1771e6 ; /*#3c538c hover*/
-	box-shadow: 0 0 10px #1771e6, 0 0 40px #1771e6, 0 0 80px #1771e6;
+	/*box-shadow: 0 0 10px #1771e6, 0 0 40px #1771e6, 0 0 80px #1771e6;*/ /*Esto ya esta gregado en el javscript*/
 	transition: background-color 0.6s, box-shadow 0.6s;
 }
 
@@ -56,6 +56,6 @@
 
 #derecha_facebook:hover{
 	background-color: #3c538c;
-	box-shadow: 0 0 10px #3c538c, 0 0 40px #3c538c, 0 0 80px #3c538c;
+	/*box-shadow: 0 0 10px #3c538c, 0 0 40px #3c538c, 0 0 80px #3c538c;*/
 }
 

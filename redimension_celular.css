@@ -10,7 +10,12 @@
 	}
 
 	.creador{
+		width: 80px;
 		font-size: 12px;
+	}
+
+	#modo_oscuro{
+		width: 80px;
 	}
 
 	.caja_titulo_principal{
@@ -55,11 +60,11 @@
 	}
 
 	.boton_hamburguer:hover ~ #icono_hamburguesa{
-		background-color: darkgray;
+		color: white;
 	}
 
 	.boton_hamburguer:hover ~ #icono_cerrar{
-		background-color: darkgray;
+		color: white;
 	}
 
 	.boton_hamburguer:checked ~ nav{

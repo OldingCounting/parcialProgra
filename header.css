@@ -13,14 +13,30 @@ header{
 #modo_oscuro{
 	position: absolute;
 	height: 100%;
-	width: 8vw;
+	width: 9vw;
 	z-index: 500;
 	opacity: 0;
+	z-index: 1000;
+	cursor: pointer;
 }
 
-header p {
-	width: 2em;
+.creador{
+	padding: 1.6em;
 	align-self: center;
+	transition: all 0.6s;
+}
+
+.creador{
+	height: 100%;
+	width: 9vw;
+	align-self: center;
+	padding: 1.5em;
+	z-index: 400;
+	cursor: pointer;
+}
+
+#modo_oscuro:hover ~ .creador{
+	background-color: darkgray;
 }
 
 nav{
@@ -30,6 +46,7 @@ nav{
 }
 
 nav a{
+	position: relative;
 	padding: 1.6em;
 	height: 100%;
 	text-decoration: none;
@@ -37,23 +54,44 @@ nav a{
 
 nav a:hover{
 	background-color: darkgray;
+	color: white;
 }
 
-.creador{
-	height: 100%;
-	align-self: center;
-	padding: 1.5em;
-	z-index: 400;
-}
-
-#modo_oscuro:hover ~ .creador{
-	background-color: darkgray;
-}
 
 .caja_boton--mobile{
+	position: relative;
 	background-color: gray;
 	display: none;
 	z-index: 100;
+}
+
+.botonera_header{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	position: absolute;
+	top: 500px;
+}
+
+.botonera_header a{
+	padding: 40px;
+	transition: color 0.3s,border-bottom 0.3s;
+}
+
+.botonera_header a:hover{
+	background-color: darkgray;
+}
+
+.botonera_header a:hover i{
+	border-bottom: 1px solid white;
+}
+
+.botonera_header a:hover{
+	color: white;
+}
+
+.botonera_header a i{
+	font-size: 20px;
 }
 
 /* Elementos para el menu hamburguesa */
@@ -77,10 +115,6 @@ nav a:hover{
 	height: 100%;
 	display: none;
 	text-align: center;
-}
-
-#icono_hamburguesa:hover{
-	background-color: indianred;
 }
 
 #icono_cerrar{

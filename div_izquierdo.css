@@ -1,6 +1,6 @@
 .caja_izquierda{
 	background-color: gray;
-	box-shadow: 0 0 10px gray, 0 0 40px gray, 0 0 80px gray;
+	transition: box-shadow 0.6s;
 }
 
 .caja_fecha{

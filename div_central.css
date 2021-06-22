@@ -22,9 +22,9 @@
 }
 
 .numeracion{/*En proceso*/
-	color: white;
+	color: black;
 	letter-spacing: 2px;
-	text-shadow: 0 0 5px rgba(0,178,255,1),
+	/*text-shadow: 0 0 5px rgba(0,178,255,1),
 		0 0 10px rgba(0,178,255,1),
 		0 0 20px rgba(0,178,255,1),
 		0 0 40px rgba(38,104,127,1),
@@ -32,9 +32,10 @@
 		0 0 90px rgba(38,104,127,1),
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
-		0 0 180px rgba(38,104,127,1);
+		0 0 180px rgba(38,104,127,1);*/
 	cursor: default;
 	margin-top: 5vw ;
 	margin-left: 1vw;
 	font-size: 2vw;
+	transition: text-shadow 0.6s, color 0.6s;
 }
