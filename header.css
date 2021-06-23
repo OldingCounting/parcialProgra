@@ -18,28 +18,23 @@ header{
 	z-index: 500;
 	opacity: 0;
 	z-index: 1000;
-	cursor: pointer;
+	cursor: help;
 }
 
 .creador{
-	padding: 1.6em;
-	align-self: center;
-	transition: all 0.6s;
 	font-weight: 700;
-}
-
-.creador{
 	font-size: 120%;
 	height: 100%;
 	width: 9vw;
 	align-self: center;
 	padding: 1em;
 	z-index: 400;
-	cursor: pointer;
+	transition: all 0.6s;
+
 }
 
 #modo_oscuro:hover ~ .creador{
-	background-color: #ffee2d;
+	/*background-color: #ffee2d;*/
 }
 
 nav{

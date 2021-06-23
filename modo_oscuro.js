@@ -97,14 +97,13 @@ function validaCheckbox()
     });
   });
 
-  $(document).ready(function(){
-  $(check).hover(function(){
-    $(elem13).css("background", "#151514");
-    }, function(){
-    $(elem13).css("background", "black");
-    });
-  });
-
+  // $(document).ready(function(){
+  // $(check).hover(function(){
+  //   $(elem13).css("background", "#151514");
+  //   }, function(){
+  //   $(elem13).css("background", "black");
+  //   });
+  // });
 
 
 
@@ -202,13 +201,13 @@ function validaCheckbox()
     });
   });
 
-  $(document).ready(function(){
-  $(check).hover(function(){
-    $(elem13).css("background", "#ffee2d");
-    }, function(){
-    $(elem13).css("background", "#f6e200");
-    });
-  });  
+  // $(document).ready(function(){
+  // $(check).hover(function(){
+  //   $(elem13).css("background", "#ffee2d");
+  //   }, function(){
+  //   $(elem13).css("background", "#f6e200");
+  //   });
+  // });  
 
 
   }
