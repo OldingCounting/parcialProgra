@@ -164,7 +164,6 @@
 }
 
 #derecha_facebook{
-	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
@@ -174,6 +173,7 @@
 
 .contenedor_twitter{
 	width: 60%;
+	margin-bottom: 50px;
 }
 
 

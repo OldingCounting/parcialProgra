@@ -89,3 +89,6 @@
 .fecha:checked ~ .sub_fecha::after{
 	content: "-";
 }
+
+
+
