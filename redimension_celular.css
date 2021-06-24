@@ -112,6 +112,10 @@
 	height: 130px;
 }
 
+.neon_hollow img{
+	object-position: center bottom;
+}
+
 .imagen_elemento{
 	top: 4vw;
 	height: 18vw;
